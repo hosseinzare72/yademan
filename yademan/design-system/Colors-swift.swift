@@ -1,0 +1,25 @@
+import SwiftUI
+
+extension Color {
+    static let yademanBgBg0 = Color(red: 5/255, green: 7/255, blue: 15/255)
+    static let yademanBgBg1 = Color(red: 11/255, green: 15/255, blue: 30/255)
+    static let yademanBgBg2 = Color(red: 19/255, green: 26/255, blue: 48/255)
+    static let yademanBgBg3 = Color(red: 26/255, green: 34/255, blue: 64/255)
+    static let yademanGoldGold1 = Color(red: 247/255, green: 222/255, blue: 139/255)
+    static let yademanGoldGold2 = Color(red: 221/255, green: 175/255, blue: 75/255)
+    static let yademanGoldGold3 = Color(red: 156/255, green: 116/255, blue: 31/255)
+    static let yademanGoldSolid = Color(red: 217/255, green: 180/255, blue: 91/255)
+    static let yademanInkPrimary = Color(red: 247/255, green: 244/255, blue: 236/255)
+    static let yademanInkSecondary = Color(red: 185/255, green: 190/255, blue: 210/255)
+    static let yademanInkMuted = Color(red: 126/255, green: 131/255, blue: 153/255)
+    static let yademanCatInstallment = Color(red: 232/255, green: 184/255, blue: 75/255)
+    static let yademanCatCheck = Color(red: 157/255, green: 140/255, blue: 255/255)
+    static let yademanCatMeeting = Color(red: 76/255, green: 195/255, blue: 255/255)
+    static let yademanCatMedicine = Color(red: 255/255, green: 122/255, blue: 158/255)
+    static let yademanCatShopping = Color(red: 62/255, green: 213/255, blue: 152/255)
+    static let yademanCatNote = Color(red: 255/255, green: 184/255, blue: 77/255)
+    static let yademanStDanger = Color(red: 255/255, green: 107/255, blue: 129/255)
+    static let yademanStSuccess = Color(red: 62/255, green: 213/255, blue: 152/255)
+    static let yademanStWarning = Color(red: 255/255, green: 184/255, blue: 77/255)
+    static let yademanStInfo = Color(red: 76/255, green: 195/255, blue: 255/255)
+}
