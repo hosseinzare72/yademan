@@ -1,0 +1,74 @@
+<!DOCTYPE html><html lang="fa" dir="rtl"><head><meta charset="UTF-8"><link rel="stylesheet" href="common.css">
+<style>
+.week{display:flex;gap:7px;margin:10px 20px 0}
+.wcell{flex:1;border-radius:16px;background:var(--card);border:1px solid var(--line);padding:8px 0 7px;display:flex;flex-direction:column;align-items:center;gap:3px}
+.wcell .dn{font-size:8.5px;color:var(--t3);font-weight:700}
+.wcell .dd{font-size:13px;font-weight:800}
+.wcell .ev{display:flex;gap:3px;height:5px}
+.wcell .ev i{width:5px;height:5px;border-radius:50%}
+.wcell.today{background:linear-gradient(135deg,var(--gold1),var(--gold2));border-color:transparent}
+.wcell.today .dn,.wcell.today .dd{color:#181203}
+.tl{margin:6px 20px 0;position:relative}
+.tl .row{display:flex;gap:12px;padding-bottom:12px;position:relative}
+.tl .time{width:38px;font-size:10.5px;font-weight:800;color:var(--t2);padding-top:10px;flex:none;text-align:left}
+.tl .lane{display:flex;flex-direction:column;align-items:center;flex:none;width:12px}
+.tl .pd{width:11px;height:11px;border-radius:50%;margin-top:12px;flex:none;box-shadow:0 0 0 4px rgba(255,255,255,.04)}
+.tl .ln{width:2px;flex:1;background:var(--card2);margin-top:4px}
+.tl .c{flex:1}
+</style></head><body><div class="phone">
+  <div class="statusbar"><span>۰۹:۴۱</span>
+    <span class="sb-icons">
+      <svg width="17" height="12" viewBox="0 0 17 12" fill="#F7F4EC"><rect x="0" y="7" width="3" height="5" rx="1"/><rect x="4.5" y="5" width="3" height="7" rx="1"/><rect x="9" y="2.5" width="3" height="9.5" rx="1"/><rect x="13.5" y="0" width="3" height="12" rx="1" opacity=".35"/></svg>
+      <svg width="16" height="12" viewBox="0 0 16 12" fill="none" stroke="#F7F4EC" stroke-width="1.6" stroke-linecap="round"><path d="M1.5 4a10 10 0 0 1 13 0"/><path d="M3.8 6.8a6.5 6.5 0 0 1 8.4 0"/><circle cx="8" cy="9.8" r="1.4" fill="#F7F4EC" stroke="none"/></svg>
+      <svg width="25" height="12" viewBox="0 0 25 12" fill="none"><rect x=".8" y=".8" width="20" height="10.4" rx="3" stroke="#F7F4EC" stroke-opacity=".5" stroke-width="1.2"/><rect x="2.6" y="2.6" width="13" height="6.8" rx="1.6" fill="#F7F4EC"/><path d="M23 4v4c1.2-.3 1.8-1 1.8-2S24.2 4.3 23 4z" fill="#F7F4EC" opacity=".5"/></svg>
+    </span></div>
+
+  <div class="header" style="padding-top:12px">
+    <div class="grow"><h1 class="title">شهریور ۱۴۰۴</h1><div class="sub">شنبه ۲۸ شهریور • ۴ رویداد</div></div>
+    <div class="iconbtn" style="background:linear-gradient(135deg,var(--gold1),var(--gold2));color:#181203;border:none"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></div>
+  </div>
+
+  <div class="week">
+    <div class="wcell today"><span class="dn">شنبه</span><span class="dd">۲۸</span><span class="ev"><i style="background:#FF7A9E"></i><i style="background:#4CC3FF"></i></span></div>
+    <div class="wcell"><span class="dn">یکشنبه</span><span class="dd">۲۹</span><span class="ev"><i style="background:#E8B84B"></i></span></div>
+    <div class="wcell"><span class="dn">دوشنبه</span><span class="dd">۳۰</span><span class="ev"><i style="background:#9D8CFF"></i><i style="background:#FF6B81"></i></span></div>
+    <div class="wcell"><span class="dn">سه‌شنبه</span><span class="dd">۳۱</span><span class="ev"></span></div>
+    <div class="wcell"><span class="dn">چهارشنبه</span><span class="dd">۱</span><span class="ev"><i style="background:#FFB84D"></i></span></div>
+    <div class="wcell"><span class="dn">پنجشنبه</span><span class="dd">۲</span><span class="ev"></span></div>
+    <div class="wcell"><span class="dn">جمعه</span><span class="dd">۳</span><span class="ev"><i style="background:#3ED598"></i></span></div>
+  </div>
+
+  <div class="sect" style="margin:18px 20px 8px"><span>برنامه امروز</span><span class="chip c-gold">۴ رویداد</span></div>
+
+  <div class="tl">
+    <div class="row"><span class="time">۰۸:۰۰</span><span class="lane"><span class="pd" style="background:var(--cat-med)"></span><span class="ln"></span></span>
+      <div class="c card" style="padding:11px 13px;display:flex;align-items:center;gap:10px"><div class="tile" style="width:36px;height:36px;background:rgba(255,122,158,.14);color:var(--cat-med);font-size:14px;font-weight:800">م</div><div class="grow"><div class="name" style="font-size:12px">ویتامین D</div><div class="meta">۱ عدد بعد از ناهار</div></div></div></div>
+    <div class="row"><span class="time">۱۰:۳۰</span><span class="lane"><span class="pd" style="background:var(--info)"></span><span class="ln"></span></span>
+      <div class="c card" style="padding:11px 13px;display:flex;align-items:center;gap:10px"><div class="tile" style="width:36px;height:36px;background:rgba(76,195,255,.14);color:var(--info)"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="8" width="18" height="12" rx="2"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg></div><div class="grow"><div class="name" style="font-size:12px">جلسه تیم کاری</div><div class="meta">دفتر مرکزی</div></div></div></div>
+    <div class="row"><span class="time">۱۳:۰۰</span><span class="lane"><span class="pd" style="background:var(--cat-med)"></span><span class="ln"></span></span>
+      <div class="c card" style="padding:11px 13px;display:flex;align-items:center;gap:10px"><div class="tile" style="width:36px;height:36px;background:rgba(255,122,158,.14);color:var(--cat-med);font-size:14px;font-weight:800">ک</div><div class="grow"><div class="name" style="font-size:12px">کلسیم + زینک</div><div class="meta">۱ عدد • همراه غذا</div></div></div></div>
+    <div class="row" style="padding-bottom:0"><span class="time">۱۸:۰۰</span><span class="lane"><span class="pd" style="background:var(--success)"></span></span>
+      <div class="c card" style="padding:11px 13px;display:flex;align-items:center;gap:10px"><div class="tile" style="width:36px;height:36px;background:rgba(62,213,152,.13);color:var(--cat-shop)"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="20" r="1.4"/><circle cx="17.5" cy="20" r="1.4"/><path d="M3 4h2.2l2.5 11.5h10.6L21 8H7"/></svg></div><div class="grow"><div class="name" style="font-size:12px">خرید هفتگی</div><div class="meta">۱۲ قلم</div></div></div></div>
+  </div>
+
+  <div class="sect" style="margin:16px 20px 8px"><span>فردا</span><span class="chip c-pur">۲ رویداد</span></div>
+  <div style="margin:0 20px" class="card">
+    <div style="display:flex;align-items:center;gap:10px;padding:12px 13px;border-bottom:1px solid var(--line)">
+      <div class="tile" style="width:36px;height:36px;background:rgba(232,184,75,.14);color:var(--cat-inst);font-size:14px;font-weight:800">ق</div>
+      <div class="grow"><div class="name" style="font-size:12px">سررسید قسط خودرو</div><div class="meta">لیزینگ پارسیان • ۲٬۸۵۰٬۰۰۰ تومان</div></div>
+      <span class="chip c-red">فردا</span>
+    </div>
+    <div style="display:flex;align-items:center;gap:10px;padding:12px 13px">
+      <div class="tile" style="width:36px;height:36px;background:rgba(157,140,255,.15);color:var(--cat-check);font-size:14px;font-weight:800">چ</div>
+      <div class="grow"><div class="name" style="font-size:12px">سررسید چک بانک ملی</div><div class="meta">چک شماره ۱۲۴</div></div>
+      <span class="chip c-yel">۲ روز دیگر</span>
+    </div>
+  </div>
+
+  <div style="display:flex;gap:9px;margin:14px 20px 0">
+    <div class="card" style="flex:1;padding:11px;text-align:center"><div style="font-size:17px;font-weight:800;color:var(--gold1)">۱۲</div><div class="muted" style="font-size:9px;font-weight:700">رویداد ماه</div></div>
+    <div class="card" style="flex:1;padding:11px;text-align:center"><div style="font-size:17px;font-weight:800;color:var(--success)">۸</div><div class="muted" style="font-size:9px;font-weight:700">انجام شده</div></div>
+    <div class="card" style="flex:1;padding:11px;text-align:center"><div style="font-size:17px;font-weight:800;color:var(--warning)">۴</div><div class="muted" style="font-size:9px;font-weight:700">باقی‌مانده</div></div>
+  </div>
+  <div class="home-ind"></div>
+</div></body></html>

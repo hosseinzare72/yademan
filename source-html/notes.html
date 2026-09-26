@@ -1,0 +1,43 @@
+<!DOCTYPE html><html lang="fa" dir="rtl"><head><meta charset="UTF-8"><link rel="stylesheet" href="common.css">
+<style>
+.note{margin:0 20px 10px;padding:12px 14px;border-radius:16px;border-left:6px solid var(--nc)}
+.note .t{font-size:12.5px;font-weight:800}
+.cl{display:flex;align-items:center;gap:8px;margin-top:7px;font-size:10.5px;font-weight:600;color:var(--t2)}
+.cl .c{width:17px;height:17px;border-radius:50%;border:1.6px solid var(--t3);flex:none;display:flex;align-items:center;justify-content:center}
+.cl.done .c{background:linear-gradient(135deg,var(--gold1),var(--gold2));border-color:transparent;color:#181203}
+.cl.done span.tx{text-decoration:line-through;color:var(--t3)}
+.pin{position:absolute;top:12px;left:14px}
+.addnote{margin:12px 20px 0}
+</style></head><body><div class="phone">
+  <div class="statusbar"><span>۰۹:۴۱</span>
+    <span class="sb-icons">
+      <svg width="17" height="12" viewBox="0 0 17 12" fill="#F7F4EC"><rect x="0" y="7" width="3" height="5" rx="1"/><rect x="4.5" y="5" width="3" height="7" rx="1"/><rect x="9" y="2.5" width="3" height="9.5" rx="1"/><rect x="13.5" y="0" width="3" height="12" rx="1" opacity=".35"/></svg>
+      <svg width="16" height="12" viewBox="0 0 16 12" fill="none" stroke="#F7F4EC" stroke-width="1.6" stroke-linecap="round"><path d="M1.5 4a10 10 0 0 1 13 0"/><path d="M3.8 6.8a6.5 6.5 0 0 1 8.4 0"/><circle cx="8" cy="9.8" r="1.4" fill="#F7F4EC" stroke="none"/></svg>
+      <svg width="25" height="12" viewBox="0 0 25 12" fill="none"><rect x=".8" y=".8" width="20" height="10.4" rx="3" stroke="#F7F4EC" stroke-opacity=".5" stroke-width="1.2"/><rect x="2.6" y="2.6" width="13" height="6.8" rx="1.6" fill="#F7F4EC"/><path d="M23 4v4c1.2-.3 1.8-1 1.8-2S24.2 4.3 23 4z" fill="#F7F4EC" opacity=".5"/></svg>
+    </span></div>
+
+  <div class="header" style="padding-top:12px">
+    <div class="grow"><h1 class="title">دفترچه یادداشت</h1><div class="sub">۶ یادداشت • ۱ سنجاق شده</div></div>
+    <div class="iconbtn"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.2-3.2"/></svg></div>
+  </div>
+
+  <div style="margin-top:10px;position:relative">
+  <div class="note card" style="--nc:var(--gold2);position:relative">
+    <span class="chip c-gold pin"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 17v5"/><path d="M8 3h8l-1.5 7 3 3H6.5l3-3z"/></svg>سنجاق شده</span>
+    <div class="t" style="padding-left:76px">تماس با بانک برای وام</div>
+    <div class="meta">۳ مورد • امروز</div>
+    <div class="cl done"><span class="c"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><span class="tx">امضای مدارک</span></div>
+    <div class="cl done"><span class="c"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span><span class="tx">مدارک ضامن</span></div>
+    <div class="cl"><span class="c"></span><span class="tx">ارزیابی ملک</span></div>
+  </div>
+
+  <div class="note card" style="--nc:var(--info)"><div class="t">ایده‌های سفر شمال</div><div class="meta">۲ مورد • ۲ روز پیش</div></div>
+  <div class="note card" style="--nc:var(--cat-med)"><div class="t">کارهای مهم هفته</div><div class="meta">۲ مورد • دیروز</div></div>
+  <div class="note card" style="--nc:var(--cat-shop)"><div class="t">لیست کتاب‌های پاییز</div><div class="meta">۱ مورد • ۳ روز پیش</div></div>
+  <div class="note card" style="--nc:var(--cat-check)"><div class="t">کدهای تخفیف فعال</div><div class="meta">۲ مورد • هفته پیش</div></div>
+  <div class="note card" style="--nc:var(--warning)"><div class="t">برنامه کلاس زبان</div><div class="meta">۱ مورد • هفته پیش</div></div>
+  </div>
+
+  <div class="addnote"><button class="btn-gold" style="height:48px">+ یادداشت جدید</button></div>
+  <div class="home-ind"></div>
+</div></body></html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html><html lang="fa" dir="rtl"><head><meta charset="UTF-8"><link rel="stylesheet" href="common.css">
+<style>
+.stab{margin:8px 20px 0;padding:16px 16px 18px;border-radius:26px;background:linear-gradient(150deg,#161E38,#131A30 65%);border:1px solid var(--line)}
+.pct{font-size:24px;font-weight:800;color:var(--success)}
+.mcard{margin:0 20px 11px;padding:13px 14px;border-radius:20px}
+.hchip{background:var(--card2);border:1px solid var(--line);border-radius:10px;padding:4px 9px;font-size:11px;font-weight:800;color:var(--t2);flex:none}
+.mbtn{height:32px;padding:0 14px;border-radius:11px;font-size:11px;font-weight:800;display:flex;align-items:center;gap:6px;border:none;font-family:inherit}
+.mbtn.done{background:var(--card2);color:var(--t3)}
+.mbtn.gold{background:linear-gradient(135deg,var(--gold1),var(--gold2));color:#181203}
+.linkbtn{display:flex;align-items:center;gap:4px;color:var(--t3);font-size:9.5px;font-weight:700}
+</style></head><body><div class="phone">
+  <div class="statusbar"><span>۰۹:۴۱</span>
+    <span class="sb-icons">
+      <svg width="17" height="12" viewBox="0 0 17 12" fill="#F7F4EC"><rect x="0" y="7" width="3" height="5" rx="1"/><rect x="4.5" y="5" width="3" height="7" rx="1"/><rect x="9" y="2.5" width="3" height="9.5" rx="1"/><rect x="13.5" y="0" width="3" height="12" rx="1" opacity=".35"/></svg>
+      <svg width="16" height="12" viewBox="0 0 16 12" fill="none" stroke="#F7F4EC" stroke-width="1.6" stroke-linecap="round"><path d="M1.5 4a10 10 0 0 1 13 0"/><path d="M3.8 6.8a6.5 6.5 0 0 1 8.4 0"/><circle cx="8" cy="9.8" r="1.4" fill="#F7F4EC" stroke="none"/></svg>
+      <svg width="25" height="12" viewBox="0 0 25 12" fill="none"><rect x=".8" y=".8" width="20" height="10.4" rx="3" stroke="#F7F4EC" stroke-opacity=".5" stroke-width="1.2"/><rect x="2.6" y="2.6" width="13" height="6.8" rx="1.6" fill="#F7F4EC"/><path d="M23 4v4c1.2-.3 1.8-1 1.8-2S24.2 4.3 23 4z" fill="#F7F4EC" opacity=".5"/></svg>
+    </span></div>
+
+  <div class="header" style="padding-top:12px">
+    <div class="grow"><h1 class="title">یادآوری دارو</h1><div class="sub">۵ دارو برای امروز تجویز شده</div></div>
+    <div class="iconbtn"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M10.5 20.5l-7-7a4.95 4.95 0 1 1 7-7l7 7a4.95 4.95 0 1 1-7 7Z"/><path d="M7 7l7 7"/></svg></div>
+  </div>
+
+  <div class="stab">
+    <div style="display:flex;justify-content:flex-start"><span class="chip c-gold" style="margin-bottom:8px">۶ روز متوالی 🔥</span></div>
+    <div class="pct">۷۸٪ عالیه!</div>
+    <div class="sub" style="margin:2px 0 14px">پایداری این هفته</div>
+    <div class="wk">
+      <div class="d"><span class="c done"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span>شنبه</div>
+      <div class="d"><span class="c done"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span>یکشنبه</div>
+      <div class="d"><span class="c done"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span>دوشنبه</div>
+      <div class="d"><span class="c done"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span>سه‌شنبه</div>
+      <div class="d"><span class="c done"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span>چهارشنبه</div>
+      <div class="d"><span class="c half"></span>پنجشنبه</div>
+      <div class="d"><span class="c"></span>جمعه</div>
+    </div>
+  </div>
+
+  <div class="mcard card" style="margin-top:14px">
+    <div style="display:flex;align-items:center;gap:11px">
+      <div class="tile" style="background:rgba(255,122,158,.14);color:var(--cat-med);font-size:16px;font-weight:800">م</div>
+      <div class="grow"><div class="name">متفورمین ۵۰۰</div><div class="meta">۱ عدد • بعد از صبحانه</div></div>
+      <span class="hchip">۰۸:۰۰</span>
+    </div>
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-top:10px">
+      <span class="linkbtn"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M10 13a5 5 0 0 0 7.5.5l2-2a5 5 0 0 0-7-7l-1.2 1.2"/><path d="M14 11a5 5 0 0 0-7.5-.5l-2 2a5 5 0 0 0 7 7l1.2-1.2"/></svg>توضیح بیشتر</span>
+      <button class="mbtn done"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>مصرف شد</button>
+    </div>
+  </div>
+
+  <div class="mcard card">
+    <div style="display:flex;align-items:center;gap:11px">
+      <div class="tile" style="background:rgba(255,122,158,.14);color:var(--cat-med);font-size:16px;font-weight:800">و</div>
+      <div class="grow"><div class="name">ویتامین D</div><div class="meta">۱ عدد • بعد از ناهار</div></div>
+      <span class="hchip">۱۳:۰۰</span>
+    </div>
+    <div style="display:flex;justify-content:flex-end;margin-top:10px"><button class="mbtn gold">مصرف شد؟</button></div>
+  </div>
+
+  <div class="mcard card">
+    <div style="display:flex;align-items:center;gap:11px">
+      <div class="tile" style="background:rgba(255,122,158,.14);color:var(--cat-med);font-size:16px;font-weight:800">ک</div>
+      <div class="grow"><div class="name">کلسیم + زینک</div><div class="meta">۱ عدد • همراه غذا</div></div>
+      <span class="hchip">۱۳:۳۰</span>
+    </div>
+    <div style="display:flex;justify-content:flex-end;margin-top:10px"><button class="mbtn gold">مصرف شد؟</button></div>
+  </div>
+
+  <div class="mcard card">
+    <div style="display:flex;align-items:center;gap:11px">
+      <div class="tile" style="background:rgba(255,122,158,.14);color:var(--cat-med);font-size:16px;font-weight:800">ا</div>
+      <div class="grow"><div class="name">امگا ۳</div><div class="meta">۱ عدد • بعد از شام</div></div>
+      <span class="hchip">۲۰:۳۰</span>
+    </div>
+    <div style="display:flex;justify-content:flex-end;margin-top:10px"><button class="mbtn done"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8.5a6 6 0 0 1 12 0c0 6.5 2.5 7.5 2.5 7.5h-17S4 15 4 8.5"/><path d="M10.3 20a2 2 0 0 0 3.4 0"/></svg>یادآوری</button></div>
+  </div>
+
+  <div class="home-ind"></div>
+</div></body></html>
