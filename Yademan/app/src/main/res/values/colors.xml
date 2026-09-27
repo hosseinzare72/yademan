@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- مسیر: Yademan/app/src/main/res/values/colors.xml -->
+<resources>
+    <color name="bg0">#05070F</color>
+    <color name="card">#131A30</color>
+    <color name="gold2">#DDAF4B</color>
+    <color name="ic_launcher_background">#0B0F1E</color>
+</resources>
